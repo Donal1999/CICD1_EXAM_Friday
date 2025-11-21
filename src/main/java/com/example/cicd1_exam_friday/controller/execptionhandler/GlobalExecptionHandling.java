@@ -6,5 +6,14 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 @RestControllerAdvice
 public class GlobalExecptionHandling {
+    @ExceptionHandler(RegistrationNotFoundExeception.class){
+
+    }
+
+    @ExceptionHandler(InvalidRegistrationDataExeception.class){
+
+    }
+
+    @ExceptionHandler()
 
 }
